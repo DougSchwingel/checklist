@@ -1,0 +1,29 @@
+.form-teste {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-box label {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input,
+option,
+select {
+    width: 30vw;
+    align-items: start;
+}
