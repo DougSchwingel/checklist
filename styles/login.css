@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 99vh;
+    min-height: 82vh;
     background-color: #ffffff;
 }
 
@@ -20,8 +20,8 @@ body {
 }
 
 .login-box {
-    width: 60vw;
-    height: 45vh;
+    width: 70vw;
+    height: 60vh;
     background-color: #000000;
     color: #ffffff;
     border-radius: 7px;
@@ -122,8 +122,7 @@ a {
     } 
   }
 
-  @media (min-height: 720px) and (min-width: 1280px) and (max-height: 949px) and (max-width: 1499px) {
-    
+  @media (min-height: 720px) and (min-width: 1280px) and (max-height: 949px) and (max-width: 1499px) {    
    
     .logo {
         width: 50%;
