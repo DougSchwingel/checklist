@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 99vh;
     background-color: #ffffff;
 }
 
@@ -109,3 +109,34 @@ a {
     color: #ffffff;
     padding: 10px 0;
 }
+
+@media (max-height: 1329px) {
+    
+    body {
+        min-height: 99vh;
+    }
+    
+    .login-box {
+        width: 65vw;
+        height: 55vh;
+    } 
+       
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .button:hover {
+        background-color: #45a049;
+    }
+    
+    .rodape {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #000000;
+        color: #ffffff;
+        padding: 10px 0;
+    }
+  }
